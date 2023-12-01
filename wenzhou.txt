@@ -1,10 +1,25 @@
-第一章 文周出生在威海
-    esc	
-    shift+z或ZZ或进入底行模式:wq，保存退出。
-第二章 文周尿床了
-    git add . ->工作区到暂存区
-    git commit -m "" ->暂存区到本地仓库
-    git log 查看日志
-第三章 文周会说话了
-    mkdir 创建文件
-    cat 查看文件
+第一章 文本编辑
+    vi wenzhou.txt                     ->编辑文件
+    esc	                               ->退出编辑模式
+    shift+z或ZZ或进入底行模式:wq       ->保存退出文档
+第二章 git操作
+    git init                           ->管理目录
+    git status                         ->查看状态(三种状态)
+    git add .                          ->工作区到暂存区，红色到绿色
+    git commit -m ""                   ->暂存区到本地仓库
+    git config --global user.email     ->设置邮箱
+    git config --global user.name      ->设置用户名
+    git log                            ->查看日志
+    git checkout 文件名                ->丢弃工作区内容
+    git reset 文件名                   ->暂存区回退到工作区
+    git reset commit id                ->本地仓库回退到工作区，版本回退，内容不回退
+    git reflog                         ->所有操作记录，git reset commitid，版本前进到数据仓库
+    git reset --hard commitid          ->回退到之前版本，版本和内容均不再有
+第三章 常用指令
+    ls -la      ->查看(隐藏)文件
+    clear       ->清屏
+    mkdir       ->创建目录
+    touch       ->创建文件
+    pwd         ->当前目录
+    cd ~        ->切换到家目录
+    cat         ->查看文件
