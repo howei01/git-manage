@@ -4,3 +4,7 @@
 第二章 文周尿床了
     git add . ->工作区到暂存区
     git commit -m "" ->暂存区到本地仓库
+    git log 查看日志
+第三章 文周会说话了
+    mkdir 创建文件
+    cat 查看文件
